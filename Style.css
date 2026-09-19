@@ -8,7 +8,7 @@ body{
 h1{
     text-align: center;
     color:white;
-    background-image: url('/Images/FireBanner.jpg'); height: cover; position: sticky; 
+    background-image: url('./Images/FireBanner.jpg'); height: cover; position: sticky; 
     /* position: sticky;
     top:0; */
 
