@@ -1,0 +1,158 @@
+body{
+    background: rgb(20, 20, 20);
+    background-attachment: fixed;
+    color: white;
+    font-family: Times, Serif;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    background-image: url('/Images/FireBanner.jpg'); height: cover; position: sticky; 
+    /* position: sticky;
+    top:0; */
+
+}
+h2{
+    text-align: center;
+    position:sticky;
+    color: white;
+
+}
+.NavBar ul{
+  list-style-type:none;
+  background-color:rgb(43, 42, 42);
+ 
+  display:flex;
+  padding: 0px;
+  margin:0px;
+  justify-content:center;
+  top:0;
+  
+}
+.NavBar a{
+    display: flex;
+    padding: 1vh;
+
+}
+.NavList img{
+    box-sizing: border-box;
+    border:2px solid transparent;
+    border-color: rgb(46, 119, 52);
+    box-shadow: 10px 10px 20px 0px black;
+
+}
+.NavList img:hover{
+    border-color: red;
+}
+.CallToAction{
+    Background-color:rgb(43,42,42);
+    border-style: solid;
+    border-width:2px;
+    border-color: rgb(46,119,52);
+    text-align: center;
+    font-size: 20px
+}.Purpose{
+    Background-color:rgb(43,42,42);
+    border-style: solid;
+    border-width:2px;
+    border-color: rgb(46,119,52);
+    text-align: center;
+    font-size: 20px
+}
+
+.HowWeDoIt{
+    Background-color:rgb(43,42,42);
+    border-style: solid;
+    border-width:2px;
+    border-color: rgb(46,119,52);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3px;
+}
+.CustomerRColumns{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+.Reviews{
+    Background-color:rgb(43,42,42);
+    border-style: solid;
+    border-width:2px;
+    border-color: rgb(46,119,52);
+    text-align: center;
+    font-size: 20px
+    
+}
+
+.Images img{
+    width:50%;
+    height:auto;
+    display: block;
+    display:flex;
+    justify-content:center;
+    Float:right;
+
+}
+
+.Hours{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+
+.Hours th{
+    width: 100px;
+
+}
+.Founder{
+    display:flex;
+    gap: 10px;
+}
+.FounderT{
+    Background-color:rgb(43,42,42);
+    border-style: solid;
+    border-width:2px;
+    border-color: rgb(46,119,52);
+    align-content: center;
+    text-align:center;
+    font-size: 25px;
+    margin-top: 3px;
+}
+.ContactUs{
+    text-align:center;
+
+}
+.ContactUs li{
+    list-style-type: none;
+    display: inline-flex;
+    gap: 30px;
+
+}
+.Form{
+    Background-color:rgb(43,42,42);
+    border-style: solid;
+    border-width:2px;
+    border-color: rgb(46,119,52);
+    align-content: center;
+    text-align:left;
+    font-size: 25px;
+    margin-top: 3px;
+}
+.Form label{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.Form input{
+    Margin: 5px;
+}
+.comingsoon{
+    font-weight:bold;
+    text-decoration:underline;
+    font-style:italic;
+    font-size: 40px;
+    text-align:center;
+
+}
